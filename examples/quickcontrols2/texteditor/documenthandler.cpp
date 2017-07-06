@@ -59,6 +59,7 @@
 #include <QTextCharFormat>
 #include <QTextCodec>
 #include <QTextDocument>
+#include <QtCore/QDebug>
 
 DocumentHandler::DocumentHandler(QObject *parent)
     : QObject(parent)
